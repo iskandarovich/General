@@ -1,0 +1,296 @@
+*{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.main{
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-top: 65px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar{
+    text-align: center;
+}
+
+
+.nav{
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(13, 61, 61, 0.76);
+    border: solid black 2px;
+    border-radius: 5px;
+  
+}
+
+
+.body{
+    display: flex;
+    margin-top: 20px;
+}
+
+.con{
+    flex: 1;
+}
+
+.conchild{
+    cursor: pointer;
+    border: black solid 3px;
+    border-radius: 8px;
+    background-color: rgba(13, 61, 61, 0.76);
+    text-align: center;
+}
+
+.con11{
+    text-align: left;
+
+}
+
+
+.con111{
+    text-align: center;
+    border-bottom: solid black 3px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+
+.con112{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.con113{
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.con114{
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.con115{
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.con116{
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+.con121{
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.con122{
+    text-align: center;
+    font-size: 15px;
+    border: solid 30px rgb(255, 0, 0);
+    display: inline-block;
+    border-radius: 100px;
+    padding: 40px 15px ;
+    margin-bottom: 15px;
+}
+
+.con2{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.con12{
+     margin-top: 20px;     
+}
+
+.con211{
+    margin-bottom: 20px;
+}
+
+.con212{
+    margin-bottom: 25px;
+    font-size: 23px;
+}
+
+.con213{
+    margin-bottom: 20px;
+}
+
+.con214{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.con215{
+    margin-top: 10px;
+    border-top: tomato solid 2px;
+}
+
+.con215{
+    border-bottom: 3px rgb(255, 255, 255) solid;
+}
+
+.con215{
+    border-top: solid 3px goldenrod;
+    width: 33%;
+}
+
+.con311{
+    font-size: 25px;
+}
+
+.con312{
+    border: rgb(22, 63, 75) solid 2px;
+    border-radius: 5px;
+    background-color: rgb(8, 36, 44);
+    margin: 0 120px;
+    margin-top: 20px;
+    height: 30px;   
+}
+
+.con313{
+    border: rgb(22, 63, 75) solid 2px;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    margin: 0 180px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 7px;
+}
+
+.con331{
+    font-size: 15px;
+}
+
+.con332{
+    border: rgb(22, 63, 75) solid 2px;
+    border-radius: 5px;
+    background-color: rgb(8, 36, 44);
+    margin: 0 120px;
+    margin-top: 20px;
+    height: 30px;   
+}
+
+.con333{
+    border: rgb(22, 63, 75) solid 2px;
+    border-radius: 5px;
+    background-color: rgb(8, 36, 44);
+    margin: 0 150px;
+    margin-top: 15px;
+}
+
+.con334{
+    border-radius: 15px;
+    background-color:lightskyblue ;
+    margin: 0 200px;
+    margin-top: 15px;
+}
+
+.con335{
+    margin-top: 15px;
+    font-size: 8px;
+    margin-bottom: 10px;
+}
+
+.sign{
+    font-size: 20px;
+}
+
+.con336{
+    margin-top: 30px;
+}
+.face{
+    background-color:rgb(16, 67, 99) ;
+    margin-top: 30px;
+    padding-top: 10px;
+    border: 2px rgb(0, 0, 0) solid;
+    padding-bottom: 10px;
+    width: 150px;
+    border-radius: 25px;
+    
+}
+
+.sub{
+    color: white;
+    text-align: center;
+}
+
+.mail{
+    font-size: 10px;
+    color: white;
+}
+
+.con22{
+    margin-top: 20px;
+    background-color: darkred;
+}
+
+.con32{
+    margin-top: 20px; 
+    height: 260px;   
+}
+
+.img{
+    margin-top: 15px;
+    width: 120px;
+    height: 120px;
+    border-radius: 250px;
+    border: solid rgb(22, 63, 75);
+}
+
+.nb1{
+    align-items: center;
+}
+
+.nb2{
+    padding-left: 100px;
+    text-align: center;
+}
+
+.nb3{
+    width: 50px;
+    height: 50px;
+    border-radius: 250px;
+    border: solid rgb(22, 63, 75);
+    float: right;
+}
+.cloud{
+    width: 150px;
+    height: 150px;
+}
+.selsi{
+    font-size: 35px;
+}
+
+.rang{
+    display: flex;
+}
+
+.rang1{
+    border: solid 2px red;
+    width: 33%;
+}
+.rang2{
+    border: solid 2px rgb(0, 17, 255);
+    width: 33%;
+}
+.rang3{
+    border: solid 2px rgb(83, 255, 3);
+    width: 33%;
+}
+
+
+
+

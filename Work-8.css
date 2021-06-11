@@ -1,0 +1,651 @@
+.head{
+    display: flex;
+    border: 2px solid black;
+    background-color: rgb(1, 24, 46);
+    width: 900px;
+    height: 400px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar{
+    display: flex; 
+    margin-left: 40px;
+    margin-top: 35px;
+    font-family: Comic Sans MS;
+}
+
+
+
+
+.a{
+    color: rgb(0, 0, 0);
+    margin-right:5px;
+    animation: harakat1 2.5s infinite alternate linear;
+}
+
+@keyframes harakat1{
+    to{
+        color: rgb(255, 255, 255);
+
+    }
+}
+
+
+
+
+
+
+.p{
+    color: rgb(0, 0, 0);
+    margin-right: 5px;
+    animation: harakat2 2.6s infinite alternate linear;
+}
+
+@keyframes harakat2{
+    to{
+        color: rgb(255, 255, 255);
+
+    }
+}
+
+
+
+
+
+
+.r{
+    color: rgb(0, 0, 0);
+    margin-right:5px;
+    animation: harakat3 2.7s infinite alternate linear;
+}
+
+@keyframes harakat3{
+    to{
+        color: rgb(255, 255, 255);
+
+    }
+}
+
+
+
+
+
+
+.i{
+    color: rgb(0, 0, 0);
+    margin-right:5px;
+    animation: harakat4 2.8s infinite alternate linear;
+}
+
+@keyframes harakat4{
+    to{
+        color: rgb(255, 255, 255);
+
+    }
+}
+
+
+
+
+
+
+.l{
+    color: rgb(0, 0, 0);
+    margin-right:5px;
+    animation: harakat5 2.9s infinite alternate linear;
+}
+
+@keyframes harakat5{
+    to{
+        color: rgb(255, 255, 255);
+
+    }
+}
+
+
+
+
+
+
+.z{
+    color: rgb(0, 0, 0);
+    margin-right:5px;
+    animation: harakat5 3s infinite alternate linear;
+}
+
+@keyframes harakat5{
+    to{
+        color: rgb(255, 255, 255);
+
+    }
+}
+
+
+
+
+
+.o{
+    color: rgb(0, 0, 0);
+    margin-right:5px;
+    animation: harakat6 3.1s infinite alternate linear;
+}
+
+@keyframes harakat6{
+    to{
+        color: rgb(255, 255, 255);
+
+    }
+}
+
+
+
+
+
+
+.n{
+    color: rgb(0, 0, 0);
+    margin-right:5px;
+    animation: harakat6 3.2s infinite alternate ;
+}
+
+@keyframes harakat6{
+    to{
+        color: rgb(255, 255, 255);
+
+    }
+}
+
+
+
+
+
+
+.a1{
+    color: rgb(0, 0, 0);
+    margin-right:5px;
+    animation: harakat7 3.3s infinite alternate linear;
+}
+
+@keyframes harakat7{
+    to{
+        color: rgb(255, 255, 255);
+
+    }
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 45px;
+    margin-left: -100px;
+    
+}
+
+
+
+
+.text2{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+
+.mini{
+    font-size: 5px;
+    color: lightslategray;
+}
+
+
+
+
+.abaut{
+
+    margin-top: 100px;
+    color: lightsteelblue;
+    font-size: 5px;
+}
+
+
+
+.tr:hover{
+    cursor:pointer;
+    border-left: 3px solid rgb(10, 230, 255);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    margin-left: 100px;
+
+}
+
+
+
+
+.border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 280px;
+    height: 280px;
+
+    border: 5px dashed rgb(26, 230, 230);
+    border-radius: 50%;
+
+    animation: border 80s infinite alternate linear;
+   
+}
+
+
+@keyframes border{
+    to{
+        transform: rotate(360deg);
+
+    }
+}
+
+
+
+
+
+
+
+.border1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+    width: 230px;
+    height: 230px;
+    
+    border: 5px solid rgb(0, 255, 170);
+    border-radius: 50%;
+   
+    animation: border1 80s infinite alternate linear;
+}
+
+@keyframes border1{
+    to{
+        transform: rotate(360deg);
+
+    }
+}
+
+
+
+
+
+
+
+.border2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 210px;
+    height: 210px;
+
+    border: 4px solid rgb(94, 91, 91);
+    border-radius: 50%;
+
+    animation: border2 80s infinite alternate linear;
+}
+
+@keyframes border2{
+    to{
+        transform: rotate(360deg);
+
+    }
+}
+
+
+
+
+
+
+.border3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 195px;
+    height: 195px;
+
+    border: 3px ridge rgb(255, 0, 0);
+    border-radius: 50%;
+   
+    animation: border3 80s infinite alternate linear;
+}
+
+@keyframes border3{
+    to{
+        transform: rotate(360deg);
+
+    }
+}
+
+
+
+
+
+
+.border4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 170px;
+    height: 170px;
+
+    border: 5px dotted rgb(255, 255, 255);
+    border-radius: 50%;
+   
+    animation: border4 80s infinite alternate linear;
+
+}
+
+@keyframes border4{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+.border5{
+
+    display: flex;
+    position: absolute;
+    top: 0px;
+ 
+
+    width: 100%;
+    height: 100%;
+
+    border: 5px solid rgba(255, 0, 0, 0.041);
+    border-radius: 50%;
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.minibor1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    margin-top: 163px;
+    margin-left: 31px;
+
+    background-color: rgb(69, 69, 69);
+    font-size: 3px;
+
+    width: 60px;
+    height: 60px;
+
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.minibor1:hover{
+    background-color: cyan;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.minibor2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    margin-left: -37px;
+    margin-top: -19px;
+
+    background-color: rgb(69, 69, 69);
+    font-size: 3px;
+
+    width: 60px;
+    height: 60px;
+
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.minibor2:hover{
+    background-color: cyan;
+    color: black;
+    cursor: pointer;
+   
+}
+
+
+
+
+
+
+.minibor3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    margin-left: 146px;
+
+    background-color: rgb(69, 69, 69);
+    font-size: 3px;
+
+    width: 60px;
+    height: 60px;
+
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+
+
+}
+
+.minibor3:hover{
+    background-color: cyan;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.f{
+    position: relative;
+    text-align: center;
+    font-size: 8px;
+    color: white;
+    font-family: Palatino Linotype;
+    margin-left: -212px;
+    margin-top: -54px;
+}   
+
+.f:hover{
+    color: cyan;
+    cursor: pointer;
+}
+
+
+
+
+
+.f1{
+    position: relative;
+    text-align: center;
+    font-size: 8px;
+    color: white;
+    font-family: Palatino Linotype;
+    margin-left: -131px;
+    margin-top: 84px;
+}   
+
+
+.f1:hover{
+    color: cyan;
+    cursor: pointer;
+}
+
+
+
